@@ -155,7 +155,7 @@ const terms = [
 	},
 ];
 
-const initTerm = ['TODOS','A','B','C','D','F','H','K','L','M','P','R','S','T'];
+const initTerm = ['TODOS', 'A', 'B', 'C', 'D', 'F', 'H', 'K', 'L', 'M', 'P', 'R', 'S', 'T'];
 
 const glossary = new Vue ({
 	el: '#glossary',
@@ -163,7 +163,7 @@ const glossary = new Vue ({
 		concept: terms,
 		init: initTerm,
 		selectInit: null,
-		search: "tackle"
+		search: "tackle",
 	},
 	methods: {
 		//function to display the description of each term
